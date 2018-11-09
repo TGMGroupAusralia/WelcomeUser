@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "14e73a4f-64f0-4fa3-840d-16068dea614e",
+  "alias": "WelcomeuserWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "TGM" },
+    "title": { "default": "Welcome User" },
+    "description": { "default": "Personal web part for displaying User Picture, Time and Weather" },
+    "officeFabricIconFontName": "UserGauge",
+    "properties": {
+      "description": "Welcome User",
+      "useCustomColor": false,
+      "bgColor": "#A9A9A9",
+      "fontColor": "#fff",
+      "country": "Australia",
+      "officeLocation": "Melbourne",
+      "useCustomOffset": false
+    }
+  }]
+}
